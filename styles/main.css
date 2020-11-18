@@ -1,9 +1,22 @@
-body{
-    background-color: cyan;
+body {
+    background: #151D21;
+    background-image: url('../images/bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #ff7a7a;
 }
 
 header .logo a {
-	background-image: url("https://wireddesign.ga/images/logo.png");
+	background-image: url("../images/logo.png");
 	background-size: 90px;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -14,11 +27,15 @@ header .logo a {
     top: -15px;
 }
 
-section header {
-    margin-top: 0px;
-    font-family: 'Roboto Thin';
-    font-size: 62px;
-    margin-bottom: 20px;
+li:first-child {
+    float: left; 
+}
+
+li {
+    display: inline-block;
+    padding-right: 7%;
+    margin: 10px 0 0 0;
+    font-size: 36px;
 }
 
 .topnav {
@@ -27,4 +44,48 @@ section header {
     color: aliceblue;
     margin: 50px 0 0 0;
     text-align: right;
+}
+
+section header {
+    margin-top: 0px;
+    font-family: 'Roboto Thin';
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+
+.home {
+    margin-top: 220px;
+}
+
+.games {
+    margin-top: 20px;
+}
+
+section {
+    text-align: center;
+    padding: 8%;
+}
+
+section nav {
+    font-family: 'Roboto Thin';
+    font-size: 36px;
+    line-height: 55px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .mybutton {
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #151D21;
+    background: #ff7a7a;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
 }
