@@ -3,7 +3,7 @@ body{
 }
 
 header .logo a {
-	background-image: url("../images/logo.png");
+	background-image: url("https://wireddesign.ga/images/logo.png");
 	background-size: 90px;
 	background-repeat: no-repeat;
 	display: inline-block;
