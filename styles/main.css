@@ -89,3 +89,7 @@ section .mybutton {
     border: none;
     border-radius: 5px;
 }
+
+.home {
+    margin-top: 220px;
+}
