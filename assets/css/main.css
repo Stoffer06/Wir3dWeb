@@ -1111,3 +1111,7 @@ background: #888;
 background: #555;
 
 }
+h1{
+  position: relative;
+  text-align: center;
+}
