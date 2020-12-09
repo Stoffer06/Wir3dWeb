@@ -594,8 +594,9 @@ input, select, textarea {
 			}
 
       #header nav button{
-        background-color: rgba(red, green, blue, 0);
+        background-color: rgba(white);
         border-radius: 1000px;
+        border-color: white;
       }
 
 				#header nav li:nth-child(1) {
