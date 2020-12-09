@@ -596,7 +596,7 @@ input, select, textarea {
       #header nav button{
         background-color: rgba(white);
         font-family: 'Poppins', sans-serif;
-        border-radius: 1000px;
+        border-radius: 50px;
         color: white;
         border-color: white;
       }
