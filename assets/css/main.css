@@ -598,6 +598,7 @@ input, select, textarea {
         font-family: 'Poppins', sans-serif;
         border-radius: 70px;
         color: white;
+        height: 100%;
         text-align: center;
         border-color: white;      }
 
