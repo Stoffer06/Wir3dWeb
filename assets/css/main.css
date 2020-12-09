@@ -593,6 +593,11 @@ input, select, textarea {
         text-decoration: 
 			}
 
+      #header nav button{
+        background-color: rgba(red, green, blue, 0);
+        border-radius: 1000px;
+      }
+
 				#header nav li:nth-child(1) {
 					-moz-animation-delay: 2.5s;
 					-webkit-animation-delay: 2.5s;
