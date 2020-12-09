@@ -590,7 +590,6 @@ input, select, textarea {
 				position: relative;
 				top: 0;
 				width: 5.35em;
-        text-decoration: 
 			}
 
       #header nav button{
@@ -599,6 +598,7 @@ input, select, textarea {
         border-radius: 50px;
         color: white;
         height: 5.35em;
+        line-height: 5.885em;
         text-align: center;
         border-color: white;      }
 
