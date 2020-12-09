@@ -603,6 +603,7 @@ input, select, textarea {
         text-align: center;
         top: 0;
         width: 2.5em;
+        padding: 0px !important;
       }
       #header nav button{
         background-color: rgba(white);
