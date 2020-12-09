@@ -598,7 +598,7 @@ input, select, textarea {
         border-radius: 50px;
         color: white;
         height: 5.35em;
-        line-height: 5.885em;
+        width: 5.35em;
         text-align: center;
         border-color: white;      }
 
