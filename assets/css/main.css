@@ -596,10 +596,10 @@ input, select, textarea {
       #header nav button{
         background-color: rgba(white);
         font-family: 'Poppins', sans-serif;
-        border-radius: 50px;
+        border-radius: 70px;
         color: white;
-        border-color: white;
-      }
+        text-align: center;
+        border-color: white;      }
 
 				#header nav li:nth-child(1) {
 					-moz-animation-delay: 2.5s;
