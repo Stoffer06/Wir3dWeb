@@ -5,18 +5,19 @@
 <link rel="stylesheet" href="../css/fontawesome-all.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="contact form example">
+    <meta name="description" content="Want to contact me? Submit a form here :D">
     <title>Wired Design | Contact me</title>
 </head>
 
 <body>
-<form action="https://formspree.io/f/xyybnpzk" method="POST">
+<div class="container">
+  <form action="https://formspree.io/f/xyybnpzk" method="POST">
   <input class="contact" type="text" name="Name" placeholder="Name" required>
   <input class="contact" type="email" name="Email" placeholder="Email" required>
-  <input class="contact" type="text" name="message" placeholder="Message" required>
+  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
   <input class="contact" type="submit" value="Send">
 </form>
+</div>
+
 </body>
 </html>
-
-
