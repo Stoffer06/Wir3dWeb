@@ -1,4 +1,4 @@
-body
+body, header
 {
  margin:0 auto;
  padding:0px;
@@ -6,6 +6,12 @@ body
  width:100%;
  font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
  background-color:#AED6F1;
+ 	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 input[type=text], select, textarea {
   width: 100%;
