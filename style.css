@@ -48,3 +48,10 @@
     line-height: 110px;
     float: left;
 }
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
