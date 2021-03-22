@@ -26,5 +26,17 @@
             </div>
         </div>
     </div>
+
+    <audio id="newRelease">
+        <source src="music/newrelease1.mp3" type="audio/mp3"> 
+    </audio>
+
+    <script>
+        var newRelease = document.getElementById("newRelease");
+        var icon = document.getElementById("icon");
+        icon.oneClick = function(){
+            newRelease.play()
+        }
+    </script>
 </body>
 </html>
