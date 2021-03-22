@@ -61,3 +61,7 @@
     font-weight: 400;
     margin-right: 15px;
 }
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
