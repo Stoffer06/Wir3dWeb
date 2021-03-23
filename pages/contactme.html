@@ -18,22 +18,23 @@
         </div>
         <div class="contact-form">
             <form action="https://formspree.io/f/mlearbbw" method="POST">
-            <label>
-                Your email:
-                <input type="email" name="Email" required>
-            </label>
-            <label>
-                Topic:
-                <input type="text" name="Topic" required>
-            </label>
-            <label>
-                Your message:
-                <textarea name="message" required></textarea>
-            </label>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <!-- your other form fields go here -->
+                <label for="country">What do you need help with?</label>
+                <select id="help" name="Help">
+                    <option value="Music Help">Music help</option>
+                    <option value="Bug Reports">Bug Reports</option>
+                    <option value="Reports">Reports</option>
+                </select>
 
-            <button type="submit">Send</button>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
             </form>
         </div>
     </div>
