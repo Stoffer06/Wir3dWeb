@@ -20,7 +20,7 @@
         <script src="https://www.google.com/recaptcha/api.js"></script>
         <!-- action="https://formspree.io/f/mlearbbw" -->
         <div class="contact-form">
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
                 <label for="fname">Your Name</label>
                 <input type="text" id="name" name="name" placeholder="Your Name.." required>
                 <label for="email">Your Email</label>
@@ -30,7 +30,7 @@
                 <input type="text" id="topic" name="topic" placeholder="Topic.." required>
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-                <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LeTj4waAAAAAGFpKZ_UO4uwvLMwN07caiz_UsEO"></div>
+                <div></div>
                 <input type="submit" value="Submit">
             </form>
         </div>
