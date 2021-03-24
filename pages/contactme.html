@@ -5,6 +5,8 @@
     <title>WiredDesign - Contact Me</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../contactmestyle.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 <body>
     <div class="container">
@@ -30,7 +32,9 @@
                 <input type="text" id="topic" name="topic" placeholder="Topic.." required>
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-                <div></div>
+                <br>
+                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                <br>
                 <input type="submit" value="Submit">
             </form>
         </div>
