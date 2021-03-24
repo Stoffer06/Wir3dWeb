@@ -9,13 +9,13 @@
 
 </head>
 <body>
-<form class="my-form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+<form class="my-form" action="https://formspree.io/f/mlearbbw" method="POST" data-netlify-recaptcha="true" >
   <div class="container">
     <h1>Get in touch!</h1>
     <ul>
       <li>
         <select>
-          <option selected disabled value="contact">-- Please choose an option --</option>
+          <option selected disabled>-- Please choose an option --</option>
           <option>Music Ideas</option>
           <option>Website Suggestions</option>
           <option>Other</option>      
@@ -23,18 +23,18 @@
       </li>
       <li>
         <div class="grid grid-2">
-          <input type="text" placeholder="Name" value="contact" required>  
-          <input type="text" placeholder="Surname" value="contact" required>
+          <input type="text" placeholder="Name" required>  
+          <input type="text" placeholder="Surname" required>
         </div>
       </li>
       <li>
         <div class="grid grid-2">
-          <input type="email" placeholder="Email" value="contact" required>  
-          <input type="tel" placeholder="Phone" value="contact">
+          <input type="email" placeholder="Email" required>  
+          <input type="tel" placeholder="Phone">
         </div>
       </li>    
       <li>
-        <textarea placeholder="Message" value="contact"></textarea>
+        <textarea placeholder="Message"></textarea>
       </li>   
       <li>
         <input type="checkbox" id="terms">
