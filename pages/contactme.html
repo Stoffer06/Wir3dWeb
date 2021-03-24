@@ -10,33 +10,56 @@
 
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <img src="../img/logo.png" class="logo">
-            <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="#">VIDEOS</a></li>
-                <li><a href="#">CONTACT ME</a></li>
-            </ul>
+<form class="my-form">
+  <div class="container">
+    <h1>Get in touch!</h1>
+    <ul>
+      <li>
+        <select>
+          <option selected disabled>-- Please choose an option --</option>
+          <option>Music Ideas</option>
+          <option>Website Suggestions</option>
+          <option>Other</option>      
+        </select>
+      </li>
+      <li>
+        <div class="grid grid-2">
+          <input type="text" placeholder="Name" required>  
+          <input type="text" placeholder="Surname" required>
         </div>
-
-        <!--  -->
-        <div class="contact-form">
-            <form method="POST" action="https://formspree.io/f/mlearbbw">
-                <label for="fname">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="Your Name.." required>
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="Your Email.." required>
-                
-                <label for="lname">Topic</label>
-                <input type="text" id="topic" name="topic" placeholder="Topic.." required>
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-                <div class="h-captcha" data-sitekey="7056b723-403d-47e6-ac1c-6f972a4b01e9"></div>
-                <input type="submit" value="Submit">
-            </form>
+      </li>
+      <li>
+        <div class="grid grid-2">
+          <input type="email" placeholder="Email" required>  
+          <input type="tel" placeholder="Phone">
         </div>
-    </div>
+      </li>    
+      <li>
+        <textarea placeholder="Message"></textarea>
+      </li>   
+      <li>
+        <input type="checkbox" id="terms">
+        <label for="terms">I have read and agreed with <a href="">the terms and conditions.</a></label>
+      </li>  
+      <li>
+        <div class="grid grid-3">
+          <div class="required-msg">REQUIRED FIELDS</div>
+          <button class="btn-grid" type="submit" disabled>
+            <span class="back">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+            </span>
+            <span class="front">SUBMIT</span>
+          </button>
+          <button class="btn-grid" type="reset" disabled>
+            <span class="back">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+            </span>
+            <span class="front">RESET</span>
+          </button> 
+        </div>
+      </li>    
+    </ul>
+  </div>
+</form>
 </body>
 </html>
