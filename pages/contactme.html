@@ -9,13 +9,12 @@
 
 </head>
 <body>
-<div class="container">
-    <form class="my-form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-  
+<form class="my-form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+  <div class="container">
     <h1>Get in touch!</h1>
     <ul>
       <li>
-        <select>
+        <select name="Help">
           <option selected disabled>-- Please choose an option --</option>
           <option>Music Ideas</option>
           <option>Website Suggestions</option>
@@ -24,18 +23,18 @@
       </li>
       <li>
         <div class="grid grid-2">
-          <input type="text" placeholder="Name" required>  
-          <input type="text" placeholder="Surname" required>
+          <input type="text" placeholder="Name" name="Name" required>  
+          <input type="text" placeholder="Surname" name="Surname"required>
         </div>
       </li>
       <li>
         <div class="grid grid-2">
-          <input type="email" placeholder="Email" required>  
-          <input type="tel" placeholder="Phone">
+          <input type="email" placeholder="Email" name="Email"required>  
+          <input type="tel" placeholder="Phone" name="Phone">
         </div>
       </li>    
       <li>
-        <textarea placeholder="Message"></textarea>
+        <textarea placeholder="Message" name="message"></textarea>
       </li>   
       <li>
         <input type="checkbox" id="terms">
@@ -61,8 +60,8 @@
         </div>
       </li>    
     </ul>
-   </form>
-</div>
+  </div>
+</form>
 <script src="./contactjs.js"></script>
 </body>
 </html>
