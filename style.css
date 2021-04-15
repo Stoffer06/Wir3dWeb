@@ -29,6 +29,54 @@
     font-size: 15px;
 }
 */
+nav.horizontal {
+   background-color: rgb(154, 206, 235);
+   min-height: 2em;
+}
+
+nav.horizontal li {
+   color: rgb(31, 73, 125);
+   display: block;
+   line-height: 2em;
+   text-transform: uppercase;
+}
+
+nav.horizontal a {
+   display: block;
+   font-size: 1em;
+}
+
+nav.horizontal a:visited, nav.horizontal a:link {
+   color: rgb(31, 73, 125);
+}
+
+nav.horizontal a:hover, nav.horizontal a:active {
+   background-color: rgb(31, 73, 125);
+   color: black;
+}
+
+/* Main Menu Styles */
+
+ul.mainmenu {
+   display: block;
+}
+
+ul.mainmenu > li {
+   text-indent: 15px;
+}
+
+ul.mainmenu > li:first-of-type a {
+   color: black;
+   background-color: rgb(154, 206, 235);
+}
+
+/* Submenu Styles */
+
+ul.submenu {
+   width: 100%;
+   background-color: rgb(134, 176, 232);
+}olor: black;
+}
 .content{
     width: 100%;
     position: absolute;
